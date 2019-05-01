@@ -1,0 +1,43 @@
+package com.uca.capas.domain;
+
+public class Student {
+
+	private String name;
+	private String lastName;
+	private String semester;
+	private String cum;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getSemester() {
+		return semester;
+	}
+
+	public void setSemester(String semester) {
+		this.semester = semester;
+	}
+
+	public String getCUM() {
+		return cum;
+	}
+
+	public void setCUM(String cum) {
+		this.cum = cum;
+	}
+	
+	
+}
