@@ -23,7 +23,7 @@ public class MainController {
 
 		@RequestMapping(value = "/formData", method = RequestMethod.POST)
 		public ModelAndView formData(@RequestParam(value = "name") String name, @RequestParam(value = "lname") String lName,
-				@RequestParam(value = "semester") String semester, @RequestParam(value = "CUM") String CUM) {
+				@RequestParam(value = "semester") String semester, @RequestParam(value = "CUM") double CUM) {
 			ModelAndView mav = new ModelAndView();
 			Student student = new Student();
 			student.setName(name);

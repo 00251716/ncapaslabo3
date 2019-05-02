@@ -5,7 +5,7 @@ public class Student {
 	private String name;
 	private String lastName;
 	private String semester;
-	private String cum;
+	private double cum;
 	
 	public String getName() {
 		return name;
@@ -31,11 +31,11 @@ public class Student {
 		this.semester = semester;
 	}
 
-	public String getCUM() {
+	public double getCUM() {
 		return cum;
 	}
 
-	public void setCUM(String cum) {
+	public void setCUM(double cum) {
 		this.cum = cum;
 	}
 	
